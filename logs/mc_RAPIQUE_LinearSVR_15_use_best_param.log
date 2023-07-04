@@ -1,0 +1,451 @@
+Namespace(model_name='RAPIQUE', dataset_name='mc_study', feature_file='feat_files/mc_RAPIQUE_feats.mat', mos_file='mos_files/mc_us.csv', out_file='result/mc_RAPIQUE_SVR_corr.mat', log_file='logs/mc_RAPIQUE_LinearSVR_15_use_best_param.log', log_short=False, use_parallel=False, num_iterations=20, max_thread_count=4)
+0 th repeated holdout test
+3884-dim features, using LinearSVR
+Namespace(model_name='RAPIQUE', dataset_name='mc_study', feature_file='feat_files/mc_RAPIQUE_feats.mat', mos_file='mos_files/mc_us.csv', out_file='result/mc_RAPIQUE_SVR_corr.mat', log_file='logs/mc_RAPIQUE_LinearSVR_15_use_best_param.log', log_short=False, use_parallel=False, num_iterations=20, max_thread_count=4)
+0 th repeated holdout test
+3884-dim features, using LinearSVR
+Namespace(model_name='RAPIQUE', dataset_name='mc_study', feature_file='feat_files/mc_RAPIQUE_feats.mat', mos_file='mos_files/mc_us.csv', out_file='result/mc_RAPIQUE_SVR_corr.mat', log_file='logs/mc_RAPIQUE_LinearSVR_15_use_best_param.log', log_short=False, use_parallel=False, num_iterations=20, max_thread_count=4)
+0 th repeated holdout test
+3884-dim features, using LinearSVR
+[1.         1.         1.00000013 1.00000186 1.00012347 4.
+ 4.         4.         4.        ] [1.         1.         1.         1.         1.         3.99985334
+ 3.99985334 3.99985334 3.99985334]
+======================================================
+SRCC_train:  0.8653749903214641
+KRCC_train:  0.7113988192714988
+PLCC_train:  1.0
+RMSE_train:  1.0089642014399268e-10
+======================================================
+SRCC_test:  0.5477225575051662
+KRCC_test:  0.47140452079103173
+PLCC_test:  0.7905694148021389
+RMSE_test:  1.1547005391148395
+======================================================
+ -- 0.3575398921966553 seconds elapsed...
+
+
+Namespace(model_name='RAPIQUE', dataset_name='mc_study', feature_file='feat_files/mc_RAPIQUE_feats.mat', mos_file='mos_files/mc_us.csv', out_file='result/mc_RAPIQUE_SVR_corr.mat', log_file='logs/mc_RAPIQUE_LinearSVR_15_use_best_param.log', color_only=False, log_short=False, use_parallel=False, num_iterations=20, max_thread_count=4)
+0 th repeated holdout test
+3884-dim features, using LinearSVR
+[0.99999999 0.99999999 1.00000012 1.00000186 1.00012353 4.
+ 4.         4.         4.        ] [0.99999999 0.99999999 0.99999999 0.99999999 0.99999999 3.99985288
+ 3.99985288 3.99985288 3.99985288]
+======================================================
+SRCC_train:  0.8653749903214641
+KRCC_train:  0.7113988192714988
+PLCC_train:  1.0
+RMSE_train:  1.3018063265643217e-10
+======================================================
+SRCC_test:  0.5477225575051662
+KRCC_test:  0.47140452079103173
+PLCC_test:  0.7905694148018724
+RMSE_test:  1.154700539115527
+======================================================
+ -- 0.34304356575012207 seconds elapsed...
+
+
+Namespace(model_name='RAPIQUE', dataset_name='mc_study', feature_file='feat_files/mc_RAPIQUE_feats.mat', mos_file='mos_files/mc_us.csv', out_file='result/mc_RAPIQUE_SVR_corr.mat', log_file='logs/mc_RAPIQUE_LinearSVR_15_use_best_param.log', color_only=False, log_short=False, use_parallel=False, num_iterations=20, max_thread_count=4)
+0 th repeated holdout test
+3884-dim features, using LinearSVR
+======================================================
+SRCC_train:  0.8653749903214641
+KRCC_train:  0.7113988192714988
+PLCC_train:  1.0
+RMSE_train:  8.551449619454349e-11
+======================================================
+SRCC_test:  0.5477225575051662
+KRCC_test:  0.47140452079103173
+PLCC_test:  0.790569414809073
+RMSE_test:  1.154700539093871
+======================================================
+ -- 0.3699033260345459 seconds elapsed...
+
+
+Namespace(model_name='RAPIQUE', dataset_name='mc_study', feature_file='feat_files/mc_RAPIQUE_feats.mat', mos_file='mos_files/mc_us.csv', out_file='result/mc_RAPIQUE_SVR_corr.mat', log_file='logs/mc_RAPIQUE_LinearSVR_15_use_best_param.log', color_only=False, log_short=False, use_parallel=False, num_iterations=20, max_thread_count=4)
+0 th repeated holdout test
+3884-dim features, using LinearSVR
+======================================================
+SRCC_train:  0.8653749903214641
+KRCC_train:  0.7113988192714988
+PLCC_train:  0.9999999999999998
+RMSE_train:  1.4743935968793759e-10
+======================================================
+SRCC_test:  0.5477225575051662
+KRCC_test:  0.47140452079103173
+PLCC_test:  0.7905694148056972
+RMSE_test:  1.1547005391041483
+======================================================
+ -- 0.42209410667419434 seconds elapsed...
+
+
+Namespace(model_name='RAPIQUE', dataset_name='mc_study', feature_file='feat_files/mc_RAPIQUE_feats.mat', mos_file='mos_files/mc_us.csv', out_file='result/mc_RAPIQUE_SVR_corr.mat', log_file='logs/mc_RAPIQUE_LinearSVR_15_use_best_param.log', color_only=False, log_short=False, use_parallel=False, num_iterations=20, max_thread_count=4)
+0 th repeated holdout test
+3884-dim features, using LinearSVR
+======================================================
+SRCC_train:  0.8653749903214641
+KRCC_train:  0.7113988192714988
+PLCC_train:  1.0
+RMSE_train:  1.284771921199448e-10
+======================================================
+SRCC_test:  0.5477225575051662
+KRCC_test:  0.47140452079103173
+PLCC_test:  0.7905694148102231
+RMSE_test:  1.1547005390903464
+======================================================
+ -- 0.40917086601257324 seconds elapsed...
+
+
+Namespace(model_name='RAPIQUE', dataset_name='mc_study', feature_file='feat_files/mc_RAPIQUE_feats.mat', mos_file='mos_files/mc_us.csv', out_file='result/mc_RAPIQUE_SVR_corr.mat', log_file='logs/mc_RAPIQUE_LinearSVR_15_use_best_param.log', color_only=False, log_short=False, use_parallel=False, num_iterations=20, max_thread_count=4)
+0 th repeated holdout test
+3884-dim features, using LinearSVR
+======================================================
+SRCC_train:  0.8653749903214641
+KRCC_train:  0.7113988192714988
+PLCC_train:  1.0
+RMSE_train:  1.2469170947813206e-10
+======================================================
+SRCC_test:  0.5477225575051662
+KRCC_test:  0.47140452079103173
+PLCC_test:  0.7905694148085126
+RMSE_test:  1.1547005390957301
+======================================================
+ -- 0.3587946891784668 seconds elapsed...
+
+
+Namespace(model_name='RAPIQUE', dataset_name='mc_study', feature_file='feat_files/mc_RAPIQUE_feats.mat', mos_file='mos_files/mc_us.csv', out_file='result/mc_RAPIQUE_SVR_corr.mat', log_file='logs/mc_RAPIQUE_LinearSVR_15_use_best_param.log', color_only=False, log_short=False, use_parallel=False, num_iterations=20, max_thread_count=4)
+0 th repeated holdout test
+3884-dim features, using LinearSVR
+======================================================
+SRCC_train:  0.8653749903214641
+KRCC_train:  0.7113988192714988
+PLCC_train:  1.0
+RMSE_train:  1.5198415908434322e-10
+======================================================
+SRCC_test:  0.5477225575051662
+KRCC_test:  0.47140452079103173
+PLCC_test:  0.7905694147960125
+RMSE_test:  1.1547005391336547
+======================================================
+ -- 0.37915778160095215 seconds elapsed...
+
+
+1 th repeated holdout test
+3884-dim features, using LinearSVR
+======================================================
+SRCC_train:  0.8660254037844386
+KRCC_train:  0.7119335046677415
+PLCC_train:  1.0
+RMSE_train:  1.418702987691208e-10
+======================================================
+SRCC_test:  0.6928203230275508
+KRCC_test:  0.5962847939999439
+PLCC_test:  0.6697090725477172
+RMSE_test:  1.4760504634007274
+======================================================
+ -- 0.2732963562011719 seconds elapsed...
+
+
+2 th repeated holdout test
+3884-dim features, using LinearSVR
+======================================================
+SRCC_train:  0.8653749903214641
+KRCC_train:  0.7113988192714988
+PLCC_train:  1.0
+RMSE_train:  1.0096360803654411e-10
+======================================================
+SRCC_test:  0.0
+KRCC_test:  0.0
+PLCC_test:  0.49999999999993927
+RMSE_test:  1.6329931618555513
+======================================================
+ -- 0.259904146194458 seconds elapsed...
+
+
+3 th repeated holdout test
+3884-dim features, using LinearSVR
+======================================================
+SRCC_train:  0.8660254037844386
+KRCC_train:  0.7119335046677415
+PLCC_train:  1.0
+RMSE_train:  1.4811420930827513e-10
+======================================================
+SRCC_test:  0.6062177826491071
+KRCC_test:  0.521749194749951
+PLCC_test:  0.6626429000510532
+RMSE_test:  1.4885961729001782
+======================================================
+ -- 0.23460865020751953 seconds elapsed...
+
+
+4 th repeated holdout test
+3884-dim features, using LinearSVR
+======================================================
+SRCC_train:  0.8660254037844386
+KRCC_train:  0.7119335046677415
+PLCC_train:  1.0
+RMSE_train:  1.3528789970950002e-10
+======================================================
+SRCC_test:  0.8660254037844386
+KRCC_test:  0.7453559924999299
+PLCC_test:  1.0
+RMSE_test:  3.745594581382681e-11
+======================================================
+ -- 0.22766470909118652 seconds elapsed...
+
+
+5 th repeated holdout test
+3884-dim features, using LinearSVR
+======================================================
+SRCC_train:  0.8653749903214641
+KRCC_train:  0.7113988192714988
+PLCC_train:  1.0
+RMSE_train:  1.586256586063068e-10
+======================================================
+SRCC_test:  0.8215838362577492
+KRCC_test:  0.7071067811865476
+PLCC_test:  1.0
+RMSE_test:  4.114992545415349e-11
+======================================================
+ -- 0.21526360511779785 seconds elapsed...
+
+
+6 th repeated holdout test
+3884-dim features, using LinearSVR
+======================================================
+SRCC_train:  0.8660254037844386
+KRCC_train:  0.7119335046677415
+PLCC_train:  1.0
+RMSE_train:  1.254455673736194e-10
+======================================================
+SRCC_test:  0.4330127018922193
+KRCC_test:  0.37267799624996495
+PLCC_test:  0.79056941503309
+RMSE_test:  1.2171612389350284
+======================================================
+ -- 0.19988679885864258 seconds elapsed...
+
+
+7 th repeated holdout test
+3884-dim features, using LinearSVR
+======================================================
+SRCC_train:  0.864072694639532
+KRCC_train:  0.7103282410587813
+PLCC_train:  1.0
+RMSE_train:  1.279679180336704e-10
+======================================================
+SRCC_test:  0.7245688373094719
+KRCC_test:  0.6236095644623235
+PLCC_test:  1.0
+RMSE_test:  4.155936389804201e-11
+======================================================
+ -- 0.1924731731414795 seconds elapsed...
+
+
+8 th repeated holdout test
+3884-dim features, using LinearSVR
+======================================================
+SRCC_train:  0.8653749903214641
+KRCC_train:  0.7113988192714988
+PLCC_train:  0.9999999999999998
+RMSE_train:  1.1255679457967598e-10
+======================================================
+SRCC_test:  0.7302967433402214
+KRCC_test:  0.628539361054709
+PLCC_test:  0.8344050812177293
+RMSE_test:  1.03926155054748
+======================================================
+ -- 0.19244718551635742 seconds elapsed...
+
+
+9 th repeated holdout test
+3884-dim features, using LinearSVR
+======================================================
+SRCC_train:  0.8660254037844386
+KRCC_train:  0.7119335046677415
+PLCC_train:  0.9999999999999998
+RMSE_train:  8.394598411843378e-11
+======================================================
+SRCC_test:  0.7794228634059948
+KRCC_test:  0.6708203932499369
+PLCC_test:  0.8362088272972208
+RMSE_test:  1.090030779314361
+======================================================
+ -- 0.21825528144836426 seconds elapsed...
+
+
+10 th repeated holdout test
+3884-dim features, using LinearSVR
+======================================================
+SRCC_train:  0.8653749903214641
+KRCC_train:  0.7113988192714988
+PLCC_train:  1.0
+RMSE_train:  9.936761685564626e-11
+======================================================
+SRCC_test:  0.8215838362577492
+KRCC_test:  0.7071067811865476
+PLCC_test:  0.9999999999999999
+RMSE_test:  1.930506715893489e-11
+======================================================
+ -- 0.2370891571044922 seconds elapsed...
+
+
+11 th repeated holdout test
+3884-dim features, using LinearSVR
+======================================================
+SRCC_train:  0.8660254037844386
+KRCC_train:  0.7119335046677415
+PLCC_train:  1.0
+RMSE_train:  1.2072128644170295e-10
+======================================================
+SRCC_test:  0.6928203230275508
+KRCC_test:  0.5962847939999439
+PLCC_test:  0.7905694150420943
+RMSE_test:  1.217161238900371
+======================================================
+ -- 0.28371262550354004 seconds elapsed...
+
+
+12 th repeated holdout test
+3884-dim features, using LinearSVR
+======================================================
+SRCC_train:  0.8653749903214641
+KRCC_train:  0.7113988192714988
+PLCC_train:  1.0
+RMSE_train:  9.08485127450908e-11
+======================================================
+SRCC_test:  0.7302967433402214
+KRCC_test:  0.628539361054709
+PLCC_test:  0.8265504914736864
+RMSE_test:  1.0613438609940304
+======================================================
+ -- 0.24006414413452148 seconds elapsed...
+
+
+13 th repeated holdout test
+3884-dim features, using LinearSVR
+======================================================
+SRCC_train:  0.8660254037844386
+KRCC_train:  0.7119335046677415
+PLCC_train:  1.0
+RMSE_train:  1.3694133976593536e-10
+======================================================
+SRCC_test:  0.5196152422706632
+KRCC_test:  0.4472135954999579
+PLCC_test:  0.7999999999999989
+RMSE_test:  1.1925695879998905
+======================================================
+ -- 0.208420991897583 seconds elapsed...
+
+
+14 th repeated holdout test
+3884-dim features, using LinearSVR
+======================================================
+SRCC_train:  0.8653749903214641
+KRCC_train:  0.7113988192714988
+PLCC_train:  1.0
+RMSE_train:  1.2454586574298336e-10
+======================================================
+SRCC_test:  0.8215838362577492
+KRCC_test:  0.7071067811865476
+PLCC_test:  0.9999999999999998
+RMSE_test:  1.4262227431663546e-11
+======================================================
+ -- 0.20286154747009277 seconds elapsed...
+
+
+15 th repeated holdout test
+3884-dim features, using LinearSVR
+======================================================
+SRCC_train:  0.8653749903214641
+KRCC_train:  0.7113988192714988
+PLCC_train:  1.0
+RMSE_train:  1.318895846308151e-10
+======================================================
+SRCC_test:  0.6390096504226938
+KRCC_test:  0.5499719409228704
+PLCC_test:  0.7535201615038823
+RMSE_test:  1.2396520891584495
+======================================================
+ -- 0.2123417854309082 seconds elapsed...
+
+
+16 th repeated holdout test
+3884-dim features, using LinearSVR
+======================================================
+SRCC_train:  0.864072694639532
+KRCC_train:  0.7103282410587813
+PLCC_train:  0.9999999999999997
+RMSE_train:  1.2608420473390133e-10
+======================================================
+SRCC_test:  0.20701966780270625
+KRCC_test:  0.1781741612749496
+PLCC_test:  0.28571428571428564
+RMSE_test:  1.5936381457791915
+======================================================
+ -- 0.2137312889099121 seconds elapsed...
+
+
+17 th repeated holdout test
+3884-dim features, using LinearSVR
+======================================================
+SRCC_train:  0.8660254037844386
+KRCC_train:  0.7119335046677415
+PLCC_train:  1.0
+RMSE_train:  1.1777994196676705e-10
+======================================================
+SRCC_test:  0.6062177826491071
+KRCC_test:  0.521749194749951
+PLCC_test:  0.7999999997649974
+RMSE_test:  1.1925695888302923
+======================================================
+ -- 0.24817728996276855 seconds elapsed...
+
+
+18 th repeated holdout test
+3884-dim features, using LinearSVR
+======================================================
+SRCC_train:  0.864072694639532
+KRCC_train:  0.7103282410587813
+PLCC_train:  0.9999999999999998
+RMSE_train:  1.5866900857651074e-10
+======================================================
+SRCC_test:  0.7245688373094719
+KRCC_test:  0.6236095644623235
+PLCC_test:  0.9999999999999999
+RMSE_test:  5.132899510362895e-11
+======================================================
+ -- 0.1989738941192627 seconds elapsed...
+
+
+19 th repeated holdout test
+3884-dim features, using LinearSVR
+======================================================
+SRCC_train:  0.8653749903214641
+KRCC_train:  0.7113988192714988
+PLCC_train:  0.9999999999999999
+RMSE_train:  1.2983486367222148e-10
+======================================================
+SRCC_test:  0.6390096504226938
+KRCC_test:  0.5499719409228704
+PLCC_test:  0.655958138670665
+RMSE_test:  1.4232593835828968
+======================================================
+ -- 0.23956799507141113 seconds elapsed...
+
+
+======================================================
+
+SRCC Train: 0.8654398113543642 (std: 0.0006476182589288492)
+KRCC Train: 0.7114521066980883 (std: 0.0005323875428495317)
+PLCC Train: 1.0 (std: 1.1644117316690923e-16)
+RMSE Train: 1.2617221613755324e-10 (std: 2.052472264750596e-11)
+======================================================
+
+SRCC Test: 0.6301698309466263 (std: 0.20843586057639943)
+KRCC Test: 0.5423638356752505 (std: 0.17939302594773474)
+PLCC Test: 0.7998208601556185 (std: 0.18120524429075188)
+RMSE Test: 0.9009493900768583 (std: 0.6109265280890667)
+
+
+
+Overall 4.731846809387207 secs lapsed..

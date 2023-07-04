@@ -1,0 +1,23 @@
+Namespace(color_only=False, dataset_name='mc_study', feature_file='feat_files/mc_RAPIQUE_feats.mat', log_file='logs/mc_RAPIQUE_SVR__test_ratio_0.01_error.log', log_short=False, max_thread_count=4, model_name='RAPIQUE', mos_file='mos_files/mc_us.csv', num_iterations=11, out_file='result/mc_RAPIQUE_SVR_corr.mat', use_parallel=False)
+
+error code
+
+
+"C:\Users\Moss Jia\anaconda3\python.exe" C:/research_jia/new/RAPIQUE-main/evaluate_bvqa_features_regression.py
+Namespace(color_only=False, dataset_name='mc_study', feature_file='feat_files/mc_RAPIQUE_feats.mat', log_file='logs/mc_RAPIQUE_SVR__test_ratio_0.01_error.log', log_short=False, max_thread_count=4, model_name='RAPIQUE', mos_file='mos_files/mc_us.csv', num_iterations=11, out_file='result/mc_RAPIQUE_SVR_corr.mat', use_parallel=False)
+Traceback (most recent call last):
+  File "C:/research_jia/new/RAPIQUE-main/evaluate_bvqa_features_regression.py", line 263, in <module>
+    main(args)
+  File "C:/research_jia/new/RAPIQUE-main/evaluate_bvqa_features_regression.py", line 241, in main
+    metrics_train, metrics_test = evaluate_bvqa_one_split(
+  File "C:/research_jia/new/RAPIQUE-main/evaluate_bvqa_features_regression.py", line 181, in evaluate_bvqa_one_split
+    metrics_test = compute_metrics(y_test_pred, y_test)
+  File "C:/research_jia/new/RAPIQUE-main/evaluate_bvqa_features_regression.py", line 95, in compute_metrics
+    popt, _ = curve_fit(logistic_func, y_pred, y, p0=beta_init, maxfev=int(1e8))
+  File "C:\Users\Moss Jia\anaconda3\lib\site-packages\scipy\optimize\minpack.py", line 784, in curve_fit
+    res = leastsq(func, p0, Dfun=jac, full_output=1, **kwargs)
+  File "C:\Users\Moss Jia\anaconda3\lib\site-packages\scipy\optimize\minpack.py", line 414, in leastsq
+    raise TypeError('Improper input: N=%s must not exceed M=%s' % (n, m))
+TypeError: Improper input: N=4 must not exceed M=2
+
+Process finished with exit code 1

@@ -1,0 +1,129 @@
+Namespace(color_only=False, dataset_name='mc_study', feature_file='feat_files/mc_RAPIQUE_feats.mat', log_file='logs/mc_RAPIQUE_SVR_feats_cnn_test_ratio_0.03.log', log_short=False, max_thread_count=4, model_name='RAPIQUE', mos_file='mos_files/mc_us.csv', num_iterations=11, out_file='result/mc_RAPIQUE_SVR_corr.mat', use_parallel=False)
+======================================================
+Average training results among all repeated 80-20 holdouts:
+SRCC Train: 0.9816547322206581 (std: 0.0014053537965352)
+KRCC Train: 0.9158035823643835 (std: 0.0025399481963590083)
+PLCC Train: 0.9872687337568914 (std: 0.0015578746055821527)
+RMSE Train: 0.22607634097499174 (std: 0.014468114865270401)
+======================================================
+Average testing results among all repeated 80-20 holdouts:
+SRCC Test: 0.31375287484863135 (std: 0.2655076656185959)
+KRCC Test: 0.24772009681302923 (std: 0.21132629665754674)
+PLCC Test: 0.6366004238052531 (std: 0.22078145161338786)
+RMSE Test: 0.8703171184928016 (std: 0.2775291610249586)
+
+
+
+Overall 0.7973940372467041 secs lapsed..
+======================================================
+Average training results among all repeated 80-20 holdouts:
+SRCC Train: 0.9459619634361498 (std: 0.0030751168790471954)
+KRCC Train: 0.8438061675040937 (std: 0.0046177427774134455)
+PLCC Train: 0.94784855000894 (std: 0.003507283341021615)
+RMSE Train: 0.4536195565646029 (std: 0.014929356880911633)
+======================================================
+Average testing results among all repeated 80-20 holdouts:
+SRCC Test: 0.3477988170860588 (std: 0.23983784150904652)
+KRCC Test: 0.27826668946284 (std: 0.17929655633892402)
+PLCC Test: 0.6310468542640812 (std: 0.21719962703220844)
+RMSE Test: 0.8747206680146984 (std: 0.26269711347490426)
+
+
+
+Overall 0.8806459903717041 secs lapsed..
+======================================================
+Average training results among all repeated 80-20 holdouts:
+SRCC Train: 0.8794561554422888 (std: 0.005679383206402112)
+KRCC Train: 0.7443665870120487 (std: 0.006376359813842152)
+PLCC Train: 0.8782596098277559 (std: 0.005875850770460307)
+RMSE Train: 0.680757215804493 (std: 0.015205910375889371)
+======================================================
+Average testing results among all repeated 80-20 holdouts:
+SRCC Test: 0.3473253393797583 (std: 0.2977380638520682)
+KRCC Test: 0.2748547413332097 (std: 0.24247965174043934)
+PLCC Test: 0.6407151217570435 (std: 0.20723099346959753)
+RMSE Test: 0.8627795137553365 (std: 0.24813945242896232)
+
+
+
+Overall 0.7779209613800049 secs lapsed..
+======================================================
+Average training results among all repeated 80-20 holdouts:
+SRCC Train: 0.7772607151396403 (std: 0.006472097263559209)
+KRCC Train: 0.6088137496681022 (std: 0.007287802696676253)
+PLCC Train: 0.7729704252642142 (std: 0.006613668610110964)
+RMSE Train: 0.9034182720922669 (std: 0.01324491766936551)
+======================================================
+Average testing results among all repeated 80-20 holdouts:
+SRCC Test: 0.3221412385696309 (std: 0.2777376423995169)
+KRCC Test: 0.2212232831024866 (std: 0.22594814229300728)
+PLCC Test: 0.6287035703786816 (std: 0.1989092964389488)
+RMSE Test: 0.8835726347113505 (std: 0.24142776666734583)
+
+
+
+Overall 0.832772970199585 secs lapsed..
+======================================================
+Average training results among all repeated 80-20 holdouts:
+SRCC Train: 0.7036036256948603 (std: 0.0070432185293923776)
+KRCC Train: 0.5313896986569976 (std: 0.006756251371180375)
+PLCC Train: 0.7000253660554574 (std: 0.006640072853016287)
+RMSE Train: 1.0169210694134045 (std: 0.011645139333177876)
+======================================================
+Average testing results among all repeated 80-20 holdouts:
+SRCC Test: 0.2841803505703375 (std: 0.273124300264484)
+KRCC Test: 0.17824556302528008 (std: 0.21755903650553343)
+PLCC Test: 0.6696164553126047 (std: 0.15597569265975503)
+RMSE Test: 0.8576955871683408 (std: 0.22813307534442867)
+
+
+
+Overall 1.039222002029419 secs lapsed..
+======================================================
+Average training results among all repeated 80-20 holdouts:
+SRCC Train: 0.6223759322706698 (std: 0.008261114415998706)
+KRCC Train: 0.4575572864945728 (std: 0.007264943567202253)
+PLCC Train: 0.6271825802406729 (std: 0.008067534279089333)
+RMSE Train: 1.1091217701794445 (std: 0.01138476196838157)
+======================================================
+Average testing results among all repeated 80-20 holdouts:
+SRCC Test: 0.1788165406139695 (std: 0.3709961897306959)
+KRCC Test: 0.09789735403900217 (std: 0.2916763252839231)
+PLCC Test: 0.7060399280496522 (std: 0.15097397987045796)
+RMSE Test: 0.8503429581561749 (std: 0.30321404019922193)
+
+
+
+Overall 0.9554855823516846 secs lapsed..
+======================================================
+Average training results among all repeated 80-20 holdouts:
+SRCC Train: 0.5591491580407952 (std: 0.007478181039130078)
+KRCC Train: 0.4025615876602343 (std: 0.006281237516032056)
+PLCC Train: 0.5715474963907246 (std: 0.007330004672764484)
+RMSE Train: 1.168515949455205 (std: 0.007925261604669696)
+======================================================
+Average testing results among all repeated 80-20 holdouts:
+SRCC Test: 0.20185774537640655 (std: 0.35459646242366755)
+KRCC Test: 0.13001773320547816 (std: 0.26542941134978326)
+PLCC Test: 0.6549474550820216 (std: 0.14826818474291312)
+RMSE Test: 0.881913155963149 (std: 0.24237505395527617)
+
+
+
+Overall 0.8976013660430908 secs lapsed..
+======================================================
+Average training results among all repeated 80-20 holdouts:
+SRCC Train: 0.5099829485843531 (std: 0.012553506662515734)
+KRCC Train: 0.3633128173678616 (std: 0.009930671369871635)
+PLCC Train: 0.5249541453645051 (std: 0.012353595895499551)
+RMSE Train: 1.211939002727434 (std: 0.01250624079623884)
+======================================================
+Average testing results among all repeated 80-20 holdouts:
+SRCC Test: 0.20185774537640655 (std: 0.35459646242366755)
+KRCC Test: 0.13001773320547816 (std: 0.26542941134978326)
+PLCC Test: 0.6719576717998994 (std: 0.13051781164270557)
+RMSE Test: 0.8761782691550138 (std: 0.2518677104558743)
+
+
+
+Overall 0.8327736854553223 secs lapsed..

@@ -1,0 +1,1 @@
+Namespace(model_name='RAPIQUE', dataset_name='ALL_COMBINED', feature_file='feat_files/ALL_COMBINED_RAPIQUE_feats.mat', mos_file='mos_files/ALL_COMBINED_metadata.csv', out_file='result/ALL_COMBINED_RAPIQUE_binary_SVR_corr.mat', log_file='logs/logs.log', color_only=False, log_short=False, use_parallel=False, num_iterations=20, max_thread_count=10)
