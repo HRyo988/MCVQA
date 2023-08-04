@@ -1,0 +1,24 @@
+Namespace(model_name='RAPIQUE', dataset_name='mc_study', feature_file='feat_files/mc_RAPIQUE_feats.mat', mos_file='mos_files/mc_us.csv', out_file='result/mc_RAPIQUE_SVR_corr.mat', log_file='logs/McVQA.log', color_only=False, log_short=False, use_parallel=False, num_iterations=1, max_thread_count=4)
+0 th repeated holdout test
+X_train shape: (82, 2048)
+2048-dim features, using LinearSVR
+RMSE: 0.8681162135825833
+======================================================
+SRCC_train:  0.8629984712426834
+KRCC_train:  0.7089188378412334
+PLCC_train:  0.9632353506235622
+RMSE_train:  0.5373180038267944
+======================================================
+ -- 0.029735088348388672 seconds elapsed...
+
+
+======================================================
+
+SRCC Train: 0.8629984712426834 (std: 0.0)
+KRCC Train: 0.7089188378412334 (std: 0.0)
+PLCC Train: 0.9632353506235622 (std: 0.0)
+RMSE Train: 0.5373180038267944 (std: 0.0)
+
+
+
+Overall 0.03519129753112793 secs lapsed..
