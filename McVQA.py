@@ -55,7 +55,7 @@ def arg_parser():
                         default='result/mc_RAPIQUE_SVR_corr.mat',
                         help='Output correlation results')
     parser.add_argument('--log_file', type=str,
-                        default='logs/McVQA.log',
+                        default='logs/test.log',
                         help='Log files.')
     parser.add_argument('--color_only', action='store_true',
                         help='Evaluate color values only. (Only for YouTube UGC)')
@@ -135,8 +135,8 @@ def evaluate_bvqa_one_split(i, X, y, log_short):
     X_train, y_train = X, y
     print(f'X_train shape: {X_train.shape}')
 
-    # 欠損値処理
-    # 欠損値を平均値で補完
+    # # 欠損値処理
+    # # 欠損値を平均値で補完
     from scipy import stats
     X_train = np.where(np.isnan(X_train), np.nanmean(X_train, axis=0), X_train)
 
@@ -189,13 +189,13 @@ def main(args):
     # Extract a dataset of labels 1 and 5
     idx_list = []
     idx_list1 = []
-    for idx in range(198):
+    for idx in range(len(X)):
         if y[idx] !=1.0 and y[idx] !=5.0:
             # print(idx, y[idx])
             idx_list.append(idx)
         else:
             idx_list1.append(idx)
-    X_del = np.delete(X, idx_list,0)
+    X_del = np.delete(X, idx_list, 0)
     y_del = np.delete(y, idx_list)
     all_iterations = []
     t_overall_start = time.time()
